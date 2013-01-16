@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{139928c1-14b0-4e52-ab80-c2e0e5b9b9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actors">
+      <UniqueIdentifier>{95071ea6-7749-4d54-aeaf-fcf8bd0b8e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Loot">
+      <UniqueIdentifier>{a44203a0-dae6-4f76-a290-9fc4adb309cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Elements">
+      <UniqueIdentifier>{4f236534-2b18-49f6-b1f1-b2ab6a9ff9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameOver">
+      <UniqueIdentifier>{5c44a935-fba6-4a6e-b5db-e9fe5ea37984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus">
+      <UniqueIdentifier>{f8971674-d6ad-407a-888e-072bb4dd6df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus\MainMenu">
+      <UniqueIdentifier>{b82b7dcf-01ae-447c-b068-f8c9504a3ff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Plunder.cpp" />
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Game\Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="LootBag.cpp">
+      <Filter>Game\Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Game\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Lever.cpp">
+      <Filter>Game\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Underground.cpp">
+      <Filter>Game\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardHelperObjects.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNodeManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverLayer.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="NameInput.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoreLayer.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Menus\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuLayer.cpp">
+      <Filter>Menus\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDLayer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BanditChest.cpp">
+      <Filter>Game\Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Plunder.h" />
+    <ClInclude Include="Actor.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Game\Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="LootBag.h">
+      <Filter>Game\Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="Loot.h">
+      <Filter>Game\Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Game\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Lever.h">
+      <Filter>Game\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Underground.h">
+      <Filter>Game\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardHelperObjects.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNodeManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverLayer.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="NameInput.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoreLayer.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Menus\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuLayer.h">
+      <Filter>Menus\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDLayer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BanditChest.h">
+      <Filter>Game\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Settings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Plunder.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\icon.ico" />
+  </ItemGroup>
+</Project>
