@@ -652,6 +652,7 @@ void GameLayer::update(float dt)
 
 void GameLayer::mouseEvent(MouseEvent &evt)
 {
+	/*
 	if (evt.isKeyFresh(MouseEvent::MBTN_RIGHT))
 	{
 		Vec2 p = evt.getPosition() - position;
@@ -668,6 +669,7 @@ void GameLayer::mouseEvent(MouseEvent &evt)
 		addChild(light);
 		addLight(light, ld, "default");
 	}
+	*/
 }
 void GameLayer::keyEvent(KeyEvent &evt)
 {
